@@ -1,0 +1,534 @@
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.main-container .inner-container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+/* feed/post strat */
+/* header start */
+.main-container header .header .header-top {
+    display: grid;
+    grid-template-columns: 167px 1fr;
+    grid-gap: 100px;
+    padding-top: 12px;
+    margin-bottom: 25.87px;
+}
+.main-container header .header .header-top .stuserve-menu ul {
+    display: inline-block;
+}
+.main-container header .header .header-top .stuserve-menu .ul {
+    float: right;
+}
+.main-container header .header .header-top .stuserve-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 47px;
+    line-height: 51.13px;
+}
+.main-container header .header .header-top .stuserve-menu ul .img {
+    margin-right: 17px;
+}
+.main-container header .header .header-top .stuserve-menu ul li:last-child {
+    margin-right: 0;
+}
+.main-container header .header .header-top .stuserve-menu ul li a {
+    text-decoration: none;
+    color: #A7A7A7;
+    font-size: 16px;
+    display: inline-block;
+}
+.main-container header .header .header-top .stuserve-menu ul li a:hover {
+    cursor: pointer;
+    color: #414042;
+}
+/* header end */
+
+
+
+/* post strat */
+.main-container .post .post-field button {
+    outline: none;
+    width: 140px;
+    height: 30px;
+    background-color: #7D83FF;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #707070;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 348px;
+    margin-bottom: 14px;
+}
+.main-container header .header .header-top .stuserve-menu .ulul {
+    margin-left: 80px;
+}
+.main-container .post .post-field .field .menu ul li {
+    list-style: none;
+}
+.main-container .post .post-field .field .menu ul li:first-child {
+    margin-bottom: 28px;
+}
+.main-container .post .post-field .field .menu ul li ul li {
+    margin-bottom: 10px;
+}
+.main-container .post .post-field .field .menu ul li ul li:first-child {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main-container .post .post-field .field .menu ul li a {
+    text-decoration: none;
+    color: #A7A7A7;
+}
+.main-container .post .post-field .field .menu ul li .active {
+    padding-left: 20px;
+}
+.main-container .post .post-field .field .menu ul li a:hover {
+    color: #000000;
+}
+
+
+
+.main-container .post .post-field .field {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    grid-gap: 189px;
+}
+.main-container .post .post-field .field .side-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 17px;
+}
+.main-container .post .post-field .field .side-box .box {
+    width: 476px;
+    /* height: 192px; */
+    border: 1px solid #c0bfbf;
+    border-radius: 10px;
+    padding: 28px 22px 28px 19px;
+}
+.main-container .post .post-field .field .side-box .box h4 {
+    color: #000000;
+    margin-bottom: 2px;
+    display: inline-block;
+    margin-right: 239px;
+}
+.main-container .post .post-field .field .side-box .box img {
+    display: inline-block;
+}
+.main-container .post .post-field .field .side-box .box h5 {
+    margin-bottom: 12.2px;
+    color: #8F8F8F;
+}
+.main-container .post .post-field .field .side-box .box p {
+    color: #393939;
+    margin-bottom: 23.2px;
+}
+.main-container .post .post-field .field .side-box .box .icons span {
+    margin-right: 369px;
+    color: #5D5D5D;
+    font-size: 16px;
+}
+.main-container .post .post-field .field .side-box .box .pic {
+    margin-bottom: 21px;
+}
+/* post end */
+/* feed/post end */
+
+
+
+/* Guilds start */
+.main-container .menu .menu-list {
+    display: grid;
+    grid-template-columns: 167px 1fr;
+    grid-gap: 100px;
+    margin-bottom: 118px;
+}
+.main-container .menu .menu-list .menu-left ul li {
+    list-style: none;
+    margin-bottom: 9.82px;
+}
+.main-container .menu .menu-list .menu-left ul li a {
+    text-decoration: none;
+    color: #A7A7A7;
+    font-size: 16px;
+}
+.main-container .menu .menu-list .menu-left ul li a:hover {
+    cursor: pointer;
+    color: #000000;
+}
+.main-container .menu .menu-list .menu-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 17px;
+}
+.main-container .menu .menu-list .menu-right .boxe {
+    padding: 25px 27px 21px 19px;
+    border: 1px solid #c0bfbf;
+    border-radius: 10px;
+}
+.main-container .menu .menu-list .menu-right .boxe h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.main-container .menu .menu-list .menu-right .boxe img {
+    display: inline-block;
+    float: right;
+}
+.main-container .menu .menu-list .menu-right .boxe p {
+    margin-bottom: 24px;
+}
+.main-container .menu .menu-list .menu-right .boxe button {
+    outline: none;
+    width: 140px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #CACACA;
+}
+.main-container .menu .menu-list .menu-right .boxe button:hover {
+    background-color: #7D83FF;
+    cursor: pointer;
+}
+
+/* Guilds end */
+
+
+
+/* login strat*/
+.main-container .loginpage .login-page {
+    display: grid;
+    grid-template-columns: 800px 880px;
+}
+.main-container .loginpage .login-page .about {
+    background-image: url("images/login-background.svg");
+    height: 1000px;
+    width: 800px;
+    padding: 48px 130px 0 60px;
+}
+.main-container .loginpage .login-page .about img {
+    margin-bottom: 100px;
+}
+.main-container .loginpage .login-page .about h1 {
+    color: #FFFFFF;
+    font-size: 73px;
+    margin-bottom: 170px;
+}
+.main-container .loginpage .login-page .about label {
+    color: #ffffff;
+    margin-bottom: 7px;
+    font-size: 24px;
+}
+.main-container .loginpage .login-page .about p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+.main-container .loginpage .inner-container {
+    max-width: 1680px;
+    margin: 0 auto;
+}
+.main-container .loginpage .login-page .login {
+    padding: 40px 0 0 194px;
+}
+.main-container .loginpage .login-page .login img {
+    margin-bottom: 120px;
+}
+.main-container .loginpage .login-page .login h3 {
+    color: #3E434D;
+    font-size: 30px;
+    margin-bottom: 4px;
+}
+.main-container .loginpage .login-page .login p {
+    margin-bottom: 37px;
+    font-size: 16px;
+    color: #6D6D6D;
+}
+.main-container .loginpage .login-page .login label {
+    margin-bottom: 9px;
+    color: #6D6D6D;
+    font-size: 16px;
+}
+.main-container .loginpage .login-page .login input {
+    width: 517px;
+    height: 40px;
+    margin-bottom: 18px;
+    padding-left: 5px;
+    border: 1px solid #7D83FF;
+    border-radius: 4px;
+}
+.main-container .loginpage .login-page .login #checkbox {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 6px;
+    border: 1px solid #BCBCBC;
+    border-radius: 1px;
+}
+.main-container .loginpage .login-page .login h6 {
+    font-size: 16px;
+    color: #6D6D6D;
+    display: inline-block;
+    margin-bottom: 56px;
+}
+.main-container .loginpage .login-page .login button {
+    outline: none;
+    background-color: #7D83FF;
+    width: 517px;
+    height: 40px;
+    margin-bottom: 28px;
+    color: #ffffff;
+}
+.main-container .loginpage .login-page .login button:hover {
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #0f17be;
+}
+.main-container .loginpage .login-page .login h5 {
+    color: #6D6D6D;
+}
+.main-container .loginpage .login-page .login a {
+    color: #7D83FF;
+    text-decoration: none;
+}
+/* login end*/
+
+
+/* signup strat */
+.main-container .loginpage .login-page .about-signup {
+    background-image: url("images/scnd.svg");
+    height: 1000px;
+    width: 800px;
+    padding: 48px 130px 0 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main-container .loginpage .login-page .about-signup img {
+    margin-bottom: 100px;
+}
+.main-container .loginpage .login-page .about-signup h1 {
+    color: #FFFFFF;
+    font-size: 73px;
+    margin-bottom: 170px;
+}
+.main-container .loginpage .login-page .about-signup label {
+    color: #ffffff;
+    margin-bottom: 7px;
+    font-size: 24px;
+}
+.main-container .loginpage .login-page .about-signup p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+.main-container .signup {
+    padding: 48px 168px 71px 172px;
+}
+.main-container .signup img {
+    margin-bottom: 62px;
+}
+.main-container .signup h1 {
+    font-size: 30px;
+    margin-bottom: 4px;
+    color: #3E434D;
+}
+.main-container .signup p {
+    color: #6D6D6D;
+    font-size: 16px;
+    margin-bottom: 29px;
+}
+.main-container .signup label {
+    margin-bottom: 9px;
+    color: #6D6D6D;
+    font-size: 16px;
+}
+.main-container .signup input {
+    border: 1px solid #BCBCBC;
+    border-radius: 4px;
+    width: 517px;
+    height: 40px;
+    margin-bottom: 17px;
+}
+.main-container .signup button {
+    outline: none;
+    background-color: #7D83FF;
+    color: #ffffff;
+    margin-bottom: 28px;
+    width: 517px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 28px;
+}
+.main-container .signup button:hover {
+    background-color: #0f17be;
+    cursor: pointer;
+}
+.main-container .signup .para {
+    text-align: center;
+}
+.main-container .signup .para h4 {
+    color: #969696;
+    font-size: 16px;
+}
+.main-container .signup .para h4 a {
+    text-decoration: none;
+    color: #7D83FF;
+}
+.main-container .signup .para h4 a:hover {
+    cursor: pointer;
+    color: #0f17be;
+}
+/* signup end */
+
+
+/* forgot-your-passwod strat */
+.main-container .loginpage .login-page .about-password {
+    background-image: url("images/password.svg");
+    height: 1000px;
+    width: 800px;
+    padding: 48px 130px 0 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main-container .loginpage .login-page .about-password img {
+    margin-bottom: 100px;
+}
+.main-container .loginpage .login-page .about-password h1 {
+    color: #FFFFFF;
+    font-size: 73px;
+    margin-bottom: 170px;
+}
+.main-container .loginpage .login-page .about-password label {
+    color: #ffffff;
+    margin-bottom: 7px;
+    font-size: 24px;
+}
+.main-container .loginpage .login-page .about-password p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.main-container .forgot-password {
+    padding: 48px 168px 268px 195px;
+}
+.main-container .forgot-password img {
+    margin-bottom: 105px;
+}
+.main-container .forgot-password p {
+    font-size: 30px;
+    color: #3E434D;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-container .forgot-password .lock-img {
+    text-align: center;
+}
+.main-container .forgot-password .lock-img .img {
+    margin-bottom: 71px;
+}
+.main-container .forgot-password label {
+    margin-bottom: 9px;
+    color: #6D6D6D;
+}
+.main-container .forgot-password input {
+    padding-left: 5px;
+    box-sizing: 4px;
+    color: #6D6D6D;
+    width: 517px;
+    height: 40px;
+    margin-bottom: 28px;
+    border: 1px solid #7D83FF;
+    opacity: 1;
+}
+.main-container .forgot-password button {
+    border-radius: 4px;
+    background-color: #7D83FF;
+    color: #FFFFFF;
+    outline: none;
+    width: 517px;
+    height: 40px;
+    border: none;
+}
+.main-container .forgot-password button:hover {
+    cursor: pointer;
+    background-color: #0f17be;
+}
+/* forgot-your-passwod end */
+
+
+
+
+/* user-profile strat */
+.main-container .user-profile .side-menu {
+    display: grid;
+    grid-template-columns: 143px 1fr;
+    grid-gap: 213px;
+}
+.main-container .user-profile .side-menu .menu ul li {
+    list-style: none;
+    margin-bottom: 9px;
+}
+.main-container .user-profile .side-menu .menu ul li a {
+    text-decoration: none;
+    color: #A7A7A7;
+}
+.main-container .user-profile .side-menu .menu ul li a:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+
+.main-container .user-profile .side-menu .profile img {
+    margin-bottom: 26px;
+    text-align: center;
+    margin-left: 191px;
+}
+.main-container .user-profile .side-menu .profile label {
+    color: #6D6D6D;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.main-container .user-profile .side-menu .profile input {
+    padding-left: 26px;
+    width: 704px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F9F9FC;
+}
+/* user-profile end */
+
+
+
+/* single-post strat */
+.main-container .post .post-field .field .comment {
+    max-width: 826px;
+    max-height: 713px;
+    padding: 53px 55px 0 28px;
+}
+.main-container .post .post-field .field .comment h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.main-container .post .post-field .field .comment span {
+    color: #8F8F8F;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.main-container .post .post-field .field .comment p {
+    color: #393939;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.main-container .post .post-field .field .comment img {
+    margin-bottom: 30px;
+}
+/* single-post end */
