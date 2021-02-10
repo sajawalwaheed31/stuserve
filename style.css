@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Avenir-Medium";
 }
 .main-container {
     max-width: 1920px;
     margin: 0 auto;
+}
+@font-face {
+    font-family: "Avenir-Medium";
+    src: url("fonts/Avenir-Medium.ttf");
 }
 .main-container .inner-container {
     max-width: 1320px;
@@ -116,7 +121,7 @@
     color: #000000;
     margin-bottom: 2px;
     display: inline-block;
-    margin-right: 239px;
+    margin-right: 235px;
 }
 .main-container .post .post-field .field .side-box .box img {
     display: inline-block;
@@ -130,7 +135,7 @@
     margin-bottom: 23.2px;
 }
 .main-container .post .post-field .field .side-box .box .icons span {
-    margin-right: 369px;
+    margin-right: 365px;
     color: #5D5D5D;
     font-size: 16px;
 }
