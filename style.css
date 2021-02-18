@@ -117,7 +117,7 @@
 .main-container .post .post-field .field .side-box .box {
     width: 476px;
     /* height: 192px; */
-    border: 1px solid #c0bfbf;
+    box-shadow: 0px 4px 10px #00000031;
     border-radius: 10px;
     padding: 28px 22px 28px 19px;
 }
@@ -178,7 +178,7 @@
 }
 .main-container .menu .menu-list .menu-right .boxe {
     padding: 25px 27px 21px 19px;
-    border: 1px solid #c0bfbf;
+    box-shadow: 0px 4px 10px #00000031;
     border-radius: 10px;
 }
 .main-container .menu .menu-list .menu-right .boxe h3 {
@@ -528,6 +528,9 @@
 
 
 /* single-post strat */
+.main-container .post .post-field .field .comment.comment-shadow {
+    box-shadow: 0px 4px 10px #00000031;
+}
 .main-container .post .post-field .field .comment {
     max-width: 826px;
     max-height: 713px;
