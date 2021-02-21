@@ -37,8 +37,18 @@
     margin-right: 47px;
     line-height: 51.13px;
 }
-.main-container header .header .header-top .stuserve-menu ul .img {
+.main-container header .header .header-top .stuserve-menu ul li.img {
     margin-right: 17px;
+    position: relative;
+    padding-left: 50px;
+}
+.main-container header .header .header-top .stuserve-menu ul img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 40px;
+    height: 40px;
 }
 .main-container header .header .header-top .stuserve-menu ul li:last-child {
     margin-right: 0;
@@ -552,5 +562,15 @@
 }
 .main-container .post .post-field .field .comment img {
     margin-bottom: 30px;
+}
+.main-container .post .post-field .field .comment .comment-side img {
+    margin: initial;
+    margin-right: 20px;
+}
+.main-container .post .post-field .field .comment .comment-side label {
+    margin-right: 20px;
+}
+.main-container .post .post-field .field .comment .comment-side span {
+    text-align: end;
 }
 /* single-post end */
