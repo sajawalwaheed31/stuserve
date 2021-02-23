@@ -222,70 +222,84 @@
 
 
 /* login strat*/
-.main-container .loginpage .login-page {
+.main-container  .login-page {
     display: grid;
-    grid-template-columns: 800px 880px;
+    grid-template-columns: 800px 1fr;
 }
-.main-container .loginpage .login-page .about {
-    background-image: url("images/login-background.svg");
+.main-container  .login-page .about {
+    background-image: url("images/scnd.svg");
     height: 1000px;
     width: 800px;
     padding: 48px 130px 0 60px;
 }
-.main-container .loginpage .login-page .about img {
+.main-container  .login-page .about img {
     margin-bottom: 100px;
 }
-.main-container .loginpage .login-page .about h1 {
+.main-container  .login-page .about h1 {
     color: #FFFFFF;
     font-size: 73px;
     margin-bottom: 170px;
 }
-.main-container .loginpage .login-page .about label {
+.main-container  .login-page .about label {
     color: #ffffff;
     margin-bottom: 7px;
     font-size: 24px;
 }
-.main-container .loginpage .login-page .about p {
+.main-container  .login-page .about p {
     color: #ffffff;
     font-size: 16px;
 }
 
 
-.main-container .loginpage .inner-container {
+/* .main-container  .inner-container {
     max-width: 1680px;
     margin: 0 auto;
+} */
+.main-container  .login-page .login {
+    padding: 48px 168px 0 194px;
+    position: relative;
 }
-.main-container .loginpage .login-page .login {
-    padding: 40px 0 0 194px;
+.main-container  .login-page .login-felid {
+    width: 520px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.main-container .loginpage .login-page .login img {
+.main-container  .login-page .login-felid .form {
+    margin-bottom: 28px;
+}
+.main-container  .login-page .login-felid .form .single-input-field label {
+    display: block;
+    color: #6D6D6D;
+    font-size: 16px;
+}
+.main-container  .login-page .login-felid .form .single-input-field {
+    margin-bottom: 18px;
+}
+.main-container  .login-page .login .login-felid img {
     margin-bottom: 120px;
 }
-.main-container .loginpage .login-page .login h3 {
+.main-container  .login-page .login .login-felid h3 {
     color: #3E434D;
     font-size: 30px;
     margin-bottom: 4px;
 }
-.main-container .loginpage .login-page .login p {
+.main-container  .login-page .login .login-felid p {
     margin-bottom: 37px;
     font-size: 16px;
     color: #6D6D6D;
 }
-.main-container .loginpage .login-page .login label {
-    margin-bottom: 9px;
-    color: #6D6D6D;
-    font-size: 16px;
-}
-.main-container .loginpage .login-page .login input {
-    width: 517px;
+
+.main-container  .login-page .login .login-felid .form input {
+    width: 100%;
     height: 40px;
-    margin-bottom: 18px;
-    padding-left: 5px;
+    padding: 0 10px;
     border: 1px solid #7D83FF;
     border-radius: 4px;
     outline: none;
 }
-.main-container .loginpage .login-page .login #checkbox {
+.main-container  .login-page .login .login-felid .form #checkbox {
     width: 16px;
     height: 16px;
     display: inline-block;
@@ -293,31 +307,33 @@
     border: 1px solid #BCBCBC;
     border-radius: 1px;
 }
-.main-container .loginpage .login-page .login h6 {
+.main-container  .login-page .login .login-felid .form .single-input-field.single-field {
+    margin-bottom: 56px;
+}
+.main-container  .login-page .login .login-felid .form .single-input-field h6 {
     font-size: 16px;
     color: #6D6D6D;
     display: inline-block;
-    margin-bottom: 56px;
 }
-.main-container .loginpage .login-page .login button {
+.main-container  .login-page .login .login-felid .form button {
     outline: none;
     background-color: #7D83FF;
-    width: 517px;
+    width: 100%;
     height: 40px;
-    margin-bottom: 28px;
     color: #ffffff;
     border: none;
+    border-radius: 4px;
 }
-.main-container .loginpage .login-page .login button:hover {
+.main-container  .login-page .login .login-felid .form button:hover {
     cursor: pointer;
     border-radius: 4px;
     background-color: #0f17be;
     border: none;
 }
-.main-container .loginpage .login-page .login h5 {
+.main-container  .login-page .login h5 {
     color: #6D6D6D;
 }
-.main-container .loginpage .login-page .login a {
+.main-container  .login-page .login a {
     color: #7D83FF;
     text-decoration: none;
 }
@@ -417,7 +433,7 @@
 
 /* forgot-your-passwod strat */
 .main-container .loginpage .login-page .about-password {
-    background-image: url("images/password.svg");
+    background-image: url("images/scnd.svg");
     height: 1000px;
     width: 800px;
     padding: 48px 130px 0 60px;
@@ -466,7 +482,7 @@
 }
 .main-container .forgot-password input {
     padding-left: 5px;
-    box-sizing: 4px;
+    border-radius: 4px;
     color: #6D6D6D;
     width: 517px;
     height: 40px;
